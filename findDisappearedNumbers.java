@@ -36,9 +36,9 @@ class Solution {
 
         List<Integer> ans = new ArrayList<>();
 
-        for (int j = 0; j < nums.length; j++) {
-            if (nums[j] != j + 1) {
-                ans.add(j + 1);
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != i + 1) {
+                ans.add(i + 1);
             }
         }
 
